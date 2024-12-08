@@ -1,3 +1,62 @@
-h3 {
-  color: red;
+.container {
+  background-image: url(https://img.freepik.com/free-photo/abstract-surface-wood-texture-background_74190-12071.jpg?ga=GA1.1.39789461.1732087198&semt=ais_hybrid);
+  background-size: cover;
+  border-radius: 5px;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.caluculator_title {
+  text-align: left;
+  font-size: 25px;
+  color: #A38058;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.display_wrapper {
+  background-color: #C4CFCA;
+  margin-bottom: 15px;
+  padding: 15px 10px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.button_table {
+  table-layout: fixed;
+  width: 380px;
+}
+
+.button_table td {
+  padding: 5px 5px;
+  text-align: center;
+}
+
+.btn {
+  padding: 17px 22px;
+  border-radius: 50%;
+  background-color: #000000;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.05s ease; /* アニメーション効果 */
+  box-shadow: 0 4px #000000; /* 下方向の影を作る */
+}
+
+.btn:active {
+  box-shadow: 0 1px #000000; /* 影を縮めることで押された感じを表現 */
+  transform: translateY(2px); /* ボタン全体を少し下に動かす */
+}
+
+.btn:hover {
+  background-color: #5f5b5b; /* ホバー時の色を少し薄くする */
 }
